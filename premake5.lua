@@ -20,7 +20,7 @@ project "Hazel_Study"
 
 
     includedirs {
-        "%{prj.name}/vendor/spdlog/include"
+        "Hazel_Study/vendor/spdlog/include"
     }
     
     filter "system:windows"
@@ -60,7 +60,7 @@ project "Sandbox"
     files { "%{prj.name}/src/**.h", "%{prj.name}/src/**.cpp" }
 
     includedirs {
-        "%{prj.name}/vendor/spdlog/include",
+        "Hazel_Study/vendor/spdlog/include",
         "Hazel_Study/src"
     }
 
